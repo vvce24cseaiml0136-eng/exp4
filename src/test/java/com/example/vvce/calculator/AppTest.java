@@ -3,7 +3,7 @@ package com.example.vvce.calculator;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.Test;
-
+import com.*;
 /**
  * Unit test for simple App.
  */
@@ -14,6 +14,9 @@ public class AppTest {
 	}
 	void testSubtract() {
 		assertEquals(15,app.sub(20,5));
+	}
+	void testMultiply() {
+		assertEquals(100,app.mult(20,5));
 	}
 
 }
